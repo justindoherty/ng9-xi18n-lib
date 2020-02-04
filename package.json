@@ -1,0 +1,16 @@
+{
+  "name": "ng9-xi18n-lib",
+  "version": "0.0.1",
+  "description": "Test x18n in NG9 Ivy Lib",
+  "scripts": {
+    "setup": "npm run setup:lib && npm run setup:app",
+    "setup:app": "cd app && npm install && cd ..",
+    "setup:lib": "cd lib && npm install && npm run build && cd ..",
+    "prestart": "npm run setup",
+    "start": "cd app && npm start",
+    "prexi18n": "npm run setup",
+    "xi18n": "cd app && npm run xi18n"
+  },
+  "author": "",
+  "license": "ISC"
+}
