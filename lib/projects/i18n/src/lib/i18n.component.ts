@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'lib-i18n',
   template: `
-    <p>
+    <p i18n>
       i18n works!
     </p>
   `,
