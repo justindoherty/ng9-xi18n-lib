@@ -1,0 +1,10 @@
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext">
+    <body>
+      <trans-unit id="6894940659306219500" datatype="html">
+        <source> i18n works! </source>
+        <target> i18n fonctionne! </target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -8,7 +8,9 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "xi18n": "ng xi18n"
+    "xi18n": "ng xi18n",
+    "locl:extract": "locl extract -s=dist/app/*.js -f=xlf -o=messages.locl.xlf",
+    "start:fr": "ng serve --configuration=production,fr"
   },
   "private": true,
   "dependencies": {
@@ -21,6 +23,7 @@
     "@angular/platform-browser": "~9.0.0-rc.12",
     "@angular/platform-browser-dynamic": "~9.0.0-rc.12",
     "@angular/router": "~9.0.0-rc.12",
+    "@locl/cli": "0.0.1-beta.3",
     "lib-i18n": "file:../lib/dist/i18n/lib-i18n-0.0.1.tgz",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
