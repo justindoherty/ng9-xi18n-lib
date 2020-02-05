@@ -5,7 +5,7 @@
   "scripts": {
     "setup": "npm run setup:lib && npm run setup:app",
     "setup:app": "cd app && npm install && cd ..",
-    "setup:lib": "cd lib && npm install && npm run build && cd ..",
+    "setup:lib": "cd lib && npm install && npm run build && cd dist/i18n && npm pack && cd ../../..",
     "prestart": "npm run setup",
     "start": "cd app && npm start",
     "prexi18n": "npm run setup",
